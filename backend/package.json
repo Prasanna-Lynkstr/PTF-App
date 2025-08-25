@@ -1,0 +1,48 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "ts-node server.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "drizzle-orm": "^0.44.3",
+    "express": "^5.1.0",
+    "json2csv": "^6.0.0-alpha.2",
+    "jsonwebtoken": "^9.0.2",
+    "mammoth": "^1.9.1",
+    "multer": "^2.0.2",
+    "nodemailer": "^7.0.5",
+    "openai": "^5.10.1",
+    "pdf-parse": "^1.1.1",
+    "pdfjs-dist": "^2.16.105",
+    "postgres": "^3.4.7"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^6.0.0",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cookie-parser": "^1.4.9",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/multer": "^2.0.0",
+    "@types/node": "^24.0.15",
+    "@types/nodemailer": "^6.4.17",
+    "@types/pdf-parse": "^1.1.5",
+    "drizzle-kit": "^0.31.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
